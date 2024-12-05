@@ -16,10 +16,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {!user ? "" : <Navbar />}
+        <Navbar />
 
         <Routes>
-          <Route exact path="/" element={!user ? <Login /> : <Dashboard />} />
+          <Route exact path="/" element={<Dashboard />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/AddWorkoutForm" element={<AddWorkoutForm />} />
           <Route exact path="/plan" element={<Plan />} />
