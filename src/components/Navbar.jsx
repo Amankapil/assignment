@@ -109,12 +109,12 @@ export default function Navbar() {
             <a href="#" className="text-gray-700 hover:text-blue-600">
               Overview
             </a>
-            <Link
+            {/* <Link
               to="/AddWorkoutForm"
               className="text-gray-700 hover:text-blue-600"
             >
               Workouts
-            </Link>
+            </Link> */}
             <Link to="/plan" className="text-gray-700 hover:text-blue-600">
               Plans
             </Link>
@@ -162,12 +162,12 @@ export default function Navbar() {
           <a href="#" className="py-2 px-4 text-gray-700 hover:text-blue-600">
             Overview
           </a>
-          <Link
+          {/* <Link
             to="/AddWorkoutForm"
             className="py-2 px-4 text-gray-700 hover:text-blue-600"
           >
             Workouts
-          </Link>
+          </Link> */}
           <Link
             to="/plan"
             className="py-2 px-4 text-gray-700 hover:text-blue-600"
